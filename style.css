@@ -1,0 +1,229 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 80%;
+}
+
+.cl {
+    text-decoration: none;
+    color :rgb(57, 112, 138);
+    font-size: 20px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: 2px solid rgb(170, 202, 218) ;
+    border-radius: 50px;
+    padding: 10px
+}
+
+.fie:hover {
+    scale: 1.2;
+}
+.fie {
+    transition: all 0.2S;
+}
+
+.banner {
+    background-image: url(https://4kwallpapers.com/images/wallpapers/frieren-ultrawide-5040x2160-15153.jpg);
+    height: 250px;
+    position: relative;
+    background-size:cover;
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.front {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding:0;
+    margin: 0;
+}
+
+.infoma {
+    position: absolute;
+    left:40px; 
+       
+}
+.Wel {
+    color :rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    left: 10px;
+}
+#name {
+    color :rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+#age {
+    color :rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#nick {
+    color :rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.more {
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.work {
+    color :rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.workbox {
+    margin-left: 20px ;
+    gap : 10px;
+}
+
+.con_class {
+    color: white;
+    text-decoration: none;
+}
+.con {
+    margin-left: 20px ;
+    gap : 10px;
+    color: white;
+    font-size: 20px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 100px ;
+}
+
+.contact {
+    color :rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.fb {
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    border-radius: 50%;
+}
+
+.ig {
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    margin-top: 20px;
+}
+.discord {
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    margin-top: 20px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    margin-top: 20px; 
+}
+
+.hbby {
+    margin-left: 20px ;
+    gap : 10px;
+    color: white;
+    font-size: 20px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 100px ;
+    flex-direction: column;
+}
+
+.like {
+    color :rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.smt:hover {
+    scale: 1.1;
+}
+.smt {
+    border-radius: 20px;
+    transition: all 0.2S;
+}
+.cerificate {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.cer1:hover {
+    scale: 1.1;
+}
+.cer1 {
+    transition: all 0.2S;
+}
+.ac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color :rgb(53, 124, 146);
+    font-size: 30px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+.text {
+    background-color: white;
+    width: 80%;
+
+}
+.ceer {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    color :rgb(53, 124, 146);
+    font-size: 18px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: -10px;
+    padding-bottom: 50px;
+}
+body {
+    min-height: 100dvh;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(26, 147, 252));
+}
